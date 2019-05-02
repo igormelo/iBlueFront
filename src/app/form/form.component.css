@@ -1,0 +1,43 @@
+.container {
+}
+.btn {
+    background-color: rgb(38, 228, 38);
+    box-shadow: none;
+}
+.btn-edit {
+    border-radius: 0px;
+    border: 1px solid blue;
+    background-color:transparent;
+    color: rgb(77, 75, 75);
+    box-shadow: none;
+    font-size: 12px;
+    border-right: none;
+}
+.btn-edit:hover {
+    background-color: blue;
+    color: white;
+}
+.btn-delete {
+    border-radius: 0px;
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid red;
+    color: red;
+    font-size: 12px;
+    border-left: none;
+}
+.btn-delete:hover{
+    background-color: red;
+    color: white;
+}
+ul li {
+    border-radius: 0px;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+#post-msg {
+    padding-top: 10px;
+    word-break: break-all;
+    font-family: 'Quicksand', sans-serif;
+}

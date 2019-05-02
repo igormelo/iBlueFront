@@ -1,0 +1,14 @@
+<div class="container">
+    <div align="center">
+      <h1>Editar postagem</h1>
+    </div>
+    <div align="center" class="row">
+      <h5>nome: {{post?.nome}}</h5>
+    </div>
+    <div align="center" class="row">
+      <div class="input-field col s3">
+        <input type="text" class="form-control" [(ngModel)]="newPost">
+      </div>
+        <button type="submit" class="btn" (click)="update(newPost)">Publicar</button>
+    </div>
+  </div>
